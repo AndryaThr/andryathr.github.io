@@ -1,0 +1,194 @@
+body {
+    background-color: whitesmoke;
+
+    font-family: Ubuntu, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+    padding: 0;
+    margin: 0;
+}
+
+.thm {
+    width: 100%;
+
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+header {
+    height: 120px;
+}
+
+h1 {
+    text-align: left;
+    font-size: larger;
+    
+}
+
+.photo {
+    /*margin: 0;
+    padding: 0;*/
+    
+    box-sizing: border-box;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+#pic {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 3px solid white;
+
+    float: center;
+    margin: auto;
+    margin-top: -100px;
+}
+
+h1, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+    font-weight: normal;
+    font-size: medium;
+}
+
+.box {
+    box-shadow: 0 0 10px black;
+
+    width: 70%;
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.it {
+    font-style: italic;
+}
+
+.fields {
+    display: inline-block;
+
+    width: 40%;
+}
+
+.info {
+    display: inline-block;
+}
+
+#mail {
+    color: red;
+    text-decoration: none;
+}
+
+h3 {
+    display: block;
+
+    font-weight: bold;
+
+    font-size: 1.4em;
+
+    border-bottom: 3px solid black;
+}
+
+.mini-box {
+    padding: 10px;
+    margin-top: 10px;
+    
+    border-bottom: 2px solid gray;
+}
+
+.left, .right {
+    display: inline-block;
+
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.degree {
+    font-size: 1em;
+}
+
+.font {
+    font-size: 0.8em;
+}
+
+/* ----------------------------------- */
+
+h5 {
+    font-size: 1.2em;
+}
+
+.flex-box {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.img-container {
+    min-width: 180px;
+    height: 170px;
+
+    float: left;
+
+    text-align: center;
+
+    margin: 25px 10px;
+}
+
+.pro-comp {
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: 0 0 15px black;
+}
+
+h6 {
+    position: relative;
+    bottom: 0;
+
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* ----------------------------------- */
+
+.img-container-mini {
+    margin: 5px;
+
+    width: 23%;
+    float: left;
+
+    text-align: center;
+}
+
+.container {
+    display: block;
+    height: 270px;
+}
+
+.pro-comp2 {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 0 15px black;
+}
